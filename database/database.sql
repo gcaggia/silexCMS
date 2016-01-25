@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS microcms CHARACTER SET UTF8 COLLATE UTF8_UNICODE_CI;
+
+USE microcms;
+
+
+GRANT ALL PRIVILEGES ON microcms.* TO 'microcms_user'@'localhost' IDENTIFIED BY 'secret';
