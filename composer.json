@@ -1,0 +1,12 @@
+{
+    "name": "guillaume/silexCMS",
+    "authors": [
+        {
+            "name": "Guillaume Caggia",
+            "email": "guillaume.caggia@gmail.com"
+        }
+    ],
+    "require": {
+    	"silex/silex": "1.3.*"
+    }
+}
