@@ -1,3 +1,5 @@
+USE microcms;
+
 insert into t_article values
 
 (1, 'First article', 'Hi there! This is the very first article.');

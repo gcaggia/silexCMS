@@ -1,3 +1,5 @@
+USE microcms;
+
 drop table if exists t_article;
 
 create table t_article (
