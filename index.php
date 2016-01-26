@@ -1,7 +1,7 @@
 <?php
 
 // Data access
-require 'model.php'
+require 'model.php';
 
 $articles = getArticles();
 
