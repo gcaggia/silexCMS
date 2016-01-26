@@ -1,9 +1,9 @@
 <?php
 
-// Data access
-require 'model.php';
+require_once __DIR__.'/../vendor/autoload.php';
 
-$articles = getArticles();
+$app = new Silex\Application();
 
-// Data display
-require 'view.php';
+require __DIR__.'/../app/routes.php';
+
+$app->run();
