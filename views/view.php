@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet" />
-    <title>MicroCMS - Home</title>
+    <title>SilexCMS - Home</title>
 </head>
 <body>
     <header>
-        <h1>MicroCMS</h1>
+        <h1>SilexCMS</h1>
     </header>
     <?php foreach ($articles as $article): ?>
         <article>
@@ -16,7 +16,7 @@
         </article>
     <?php endforeach ?>
     <footer class="footer">
-        <p><a href="">silexCMS</a> is a minimalistic CMS built as a showcase for modern PHP development.</p>
+        <p><a href="">SilexCMS</a> is a minimalistic CMS built as a showcase for modern PHP development.</p>
     </footer>
 </body>
 </html>
